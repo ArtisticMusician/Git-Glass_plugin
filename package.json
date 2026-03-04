@@ -1,0 +1,33 @@
+{
+  "name": "git-glass",
+  "type": "module",
+  "version": "0.2.0",
+  "description": "Git Glass - Clear, hybrid Git sync for Obsidian.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild_config.js",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild_config.js production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "jest": "^30.2.0",
+    "obsidian": "^1.11.4",
+    "ts-jest": "^29.4.6",
+    "tslib": "^2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.2",
+    "simple-git": "^3.30.0"
+  }
+}

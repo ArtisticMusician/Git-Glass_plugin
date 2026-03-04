@@ -1,0 +1,306 @@
+export const GIT_GLASS_LOGO_SVG = `
+<svg xmlns="http://www.w3.org/2000/svg" id="GitGlass_logo" viewBox="0 0 760 450">
+  <defs>
+    <linearGradient id="GitGlass-linear-gradient" x1="149.14" x2="602.167" y1="-457.64" y2="-4.613" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e017d"/>
+      <stop offset=".511" stop-color="#4603b9"/>
+      <stop offset="1" stop-color="#1e017d"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-2" x1="136.402" x2="623.598" y1="-470.377" y2="16.818" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset=".04" stop-color="#fff" stop-opacity=".061"/>
+      <stop offset=".067" stop-color="#fff" stop-opacity=".096"/>
+      <stop offset=".091" stop-color="#fff" stop-opacity=".156"/>
+      <stop offset=".112" stop-color="#fff" stop-opacity=".241"/>
+      <stop offset=".132" stop-color="#fff" stop-opacity=".351"/>
+      <stop offset=".151" stop-color="#fff" stop-opacity=".486"/>
+      <stop offset=".169" stop-color="#fff" stop-opacity=".646"/>
+      <stop offset=".186" stop-color="#fff" stop-opacity=".826"/>
+      <stop offset=".2" stop-color="#fff"/>
+      <stop offset=".8" stop-color="#fff"/>
+      <stop offset=".807" stop-color="#fff" stop-opacity=".93"/>
+      <stop offset=".827" stop-color="#fff" stop-opacity=".726"/>
+      <stop offset=".849" stop-color="#fff" stop-opacity=".545"/>
+      <stop offset=".871" stop-color="#fff" stop-opacity=".392"/>
+      <stop offset=".894" stop-color="#fff" stop-opacity=".268"/>
+      <stop offset=".917" stop-color="#fff" stop-opacity=".172"/>
+      <stop offset=".942" stop-color="#fff" stop-opacity=".104"/>
+      <stop offset=".968" stop-color="#fff" stop-opacity=".063"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-3" x1="491.183" x2="491.183" y1="-316.328" y2="-446.575" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".658" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-4" x1="198.64" x2="283.005" y1="-371.713" y2="-349.251" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".209" stop-color="#330191"/>
+      <stop offset=".512" stop-color="#8211c1"/>
+      <stop offset=".715" stop-color="#c418e3"/>
+      <stop offset="1" stop-color="#ed5efb"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-5" x1="239.506" x2="288.603" y1="-269.359" y2="-298.424" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".425" stop-color="#1e017d"/>
+      <stop offset="1" stop-color="#8211c1"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-6" x1="114.28" x2="196.858" y1="-372.602" y2="-292.179" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".069" stop-color="#fdcafb"/>
+      <stop offset=".138" stop-color="#c418e3"/>
+      <stop offset=".307" stop-color="#1e017d"/>
+      <stop offset="1" stop-color="#4603b9"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-7" x1="73.874" x2="128.314" y1="-288.498" y2="-270.675" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e744fa"/>
+      <stop offset=".237" stop-color="#c418e3"/>
+      <stop offset=".564" stop-color="#1e017d"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-8" x1="125.903" x2="236.505" y1="-372.543" y2="-372.543" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".058" stop-color="#a839fb"/>
+      <stop offset=".44" stop-color="#330191"/>
+      <stop offset=".675" stop-color="#10007a"/>
+      <stop offset="1" stop-color="#4603b9"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-9" x1="190.655" x2="266.704" y1="-60.15" y2="-141.49" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4603b9"/>
+      <stop offset=".372" stop-color="#8211c1"/>
+      <stop offset=".63" stop-color="#e744fa"/>
+      <stop offset=".932" stop-color="#4603b9"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-10" x1="238.071" x2="291.392" y1="-182.145" y2="-161.446" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c418e3"/>
+      <stop offset=".153" stop-color="#8d0fc4"/>
+      <stop offset=".309" stop-color="#5c07a8"/>
+      <stop offset=".428" stop-color="#3e0297"/>
+      <stop offset=".495" stop-color="#330191"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-11" x1="265.802" x2="292.847" y1="-222.443" y2="-226.822" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".26" stop-color="#10007a"/>
+      <stop offset=".468" stop-color="#1b0180"/>
+      <stop offset="1" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-12" x1="122.339" x2="156.501" y1="-89.578" y2="-113.069" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed5efb"/>
+      <stop offset=".708" stop-color="#fdcafb"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-13" x1="129.915" x2="76.285" y1="-212.472" y2="-109.857" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".26" stop-color="#a839fb"/>
+      <stop offset=".547" stop-color="#8211c1"/>
+      <stop offset=".816" stop-color="#291de7"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-14" x1="147.939" x2="186.024" y1="-36.798" y2="-140.647" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8211c1"/>
+      <stop offset=".446" stop-color="#e744fa"/>
+      <stop offset=".501" stop-color="#8211c1"/>
+      <stop offset=".701" stop-color="#c418e3"/>
+      <stop offset=".98" stop-color="#ed5efb"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-15" x1="41.433" x2="125.229" y1="-235.227" y2="-210.399" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed5efb"/>
+      <stop offset=".258" stop-color="#c418e3"/>
+      <stop offset=".644" stop-color="#4603b9"/>
+      <stop offset=".892" stop-color="#1e017d"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-16" x1="127.456" x2="225.995" y1="-127.766" y2="-309.078" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8211c1"/>
+      <stop offset=".435" stop-color="#10007a"/>
+      <stop offset=".718" stop-color="#4603b9"/>
+      <stop offset="1" stop-color="#1e017d"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-17" x1="134.201" x2="180.204" y1="-124.003" y2="-208.649" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".417" stop-color="#8211c1"/>
+      <stop offset="1" stop-color="#10007a"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-18" x1="203.57" x2="261.331" y1="-73.966" y2="-135.746" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-19" x1="243.911" x2="285.187" y1="-272.91" y2="-297.346" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-20" x1="242.866" x2="287.582" y1="-178.918" y2="-161.56" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".02" stop-color="#fff" stop-opacity=".964"/>
+      <stop offset=".221" stop-color="#fff" stop-opacity=".626"/>
+      <stop offset=".397" stop-color="#fff" stop-opacity=".358"/>
+      <stop offset=".544" stop-color="#fff" stop-opacity=".164"/>
+      <stop offset=".655" stop-color="#fff" stop-opacity=".045"/>
+      <stop offset=".717" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-21" x1="151.122" x2="185.367" y1="-42.772" y2="-136.15" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-22" x1="121.442" x2="146.702" y1="-96.361" y2="-113.73" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-23" x1="124.723" x2="79.473" y1="-204.649" y2="-118.068" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset=".011" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-24" x1="77.223" x2="122.809" y1="-288.89" y2="-273.966" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".422" stop-color="#fff" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-25" x1="131.475" x2="230.934" y1="-371.21" y2="-371.21" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".65" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-26" x1="209.79" x2="273.712" y1="-363.043" y2="-346.024" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-27" x1="179.673" x2="221.969" y1="-241.613" y2="-319.439" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-28" x1="100.692" x2="242.337" y1="-177.316" y2="-177.316" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-29" x1="115.703" x2="176.295" y1="-363.219" y2="-304.208" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".471" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-30" x1="69.5" x2="181.201" y1="-91.475" y2="-91.475" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-31" x1="70.072" x2="126.331" y1="-177.208" y2="-177.208" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-32" x1="181.201" x2="292.902" y1="-91.475" y2="-91.475" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-33" x1="236.071" x2="292.33" y1="-177.208" y2="-177.208" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-34" x1="69.5" x2="181.201" y1="-361.849" y2="-361.849" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-35" x1="70.072" x2="126.331" y1="-276.117" y2="-276.117" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-36" x1="181.201" x2="292.902" y1="-361.849" y2="-361.849" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-37" x1="236.071" x2="292.33" y1="-276.117" y2="-276.117" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-38" x1="181.201" x2="181.201" y1="-127.753" y2="-33.586" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-39" x1="82.937" x2="82.937" y1="-303.905" y2="-149.417" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-40" x1="265.615" x2="293.316" y1="-226.662" y2="-226.662" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-41" x1="181.201" x2="181.201" y1="-419.737" y2="-325.571" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <linearGradient id="GitGlass-linear-gradient-42" x1="181.201" x2="181.201" y1="-127.753" y2="-325.571" gradientTransform="matrix(1 0 0 -1 0 -1.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcafb"/>
+      <stop offset=".996" stop-color="#c418e3"/>
+    </linearGradient>
+    <style>
+      .GitGlass-cls-12{stroke-width:0;fill:#fdcafb}
+    </style>
+  </defs>
+  <g id="GitGlass-GitGlass_logo-2" data-name="GitGlass_logo">
+    <g id="GitGlass-BG">
+      <g id="GitGlass-BG-2" data-name="BG">
+        <rect width="747.41" height="439.586" x="6.295" y="5.207" rx="186.297" ry="186.297" style="stroke-width:0;fill:url(#GitGlass-linear-gradient)"/>
+        <path d="M567.408 5.207c102.889 0 186.297 83.408 186.297 186.297v66.991c0 102.889-83.408 186.297-186.297 186.297H192.592c-102.889 0-186.297-83.408-186.297-186.297v-66.991C6.295 88.615 89.703 5.207 192.592 5.207zm0-2H192.592c-25.419 0-50.079 4.979-73.294 14.798-22.423 9.484-42.56 23.061-59.852 40.353S28.577 95.787 19.093 118.21c-9.819 23.216-14.798 47.875-14.798 73.294v66.991c0 25.419 4.979 50.079 14.798 73.294 9.484 22.423 23.061 42.56 40.353 59.852s37.429 30.869 59.852 40.353c23.216 9.819 47.875 14.798 73.294 14.798h374.816c25.419 0 50.079-4.979 73.294-14.798 22.423-9.484 42.56-23.061 59.852-40.353s30.869-37.429 40.353-59.852c9.819-23.216 14.798-47.875 14.798-73.294v-66.991c0-25.419-4.979-50.079-14.798-73.294-9.484-22.422-23.06-42.56-40.353-59.852-17.292-17.292-37.429-30.869-59.852-40.353-23.215-9.819-47.875-14.798-73.294-14.798" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="GitGlass-GitGlass_txt">
+      <path id="GitGlass-GitGlass_txt-2" d="M329.983 188.498v-1.923q0-9.809.962-16.469.96-6.659 3.318-10.843 2.355-4.183 6.419-6.395 4.062-2.211 10.218-3.005 6.155-.793 14.81-.793h18.08q11.348 0 18.44.866 7.093.865 10.915 3.318c3.822 2.453 4.304 4.015 5.265 7.14s1.443 7.221 1.443 12.285h-9.232q0-5.722-1.01-8.92c-1.01-3.198-1.94-3.671-3.799-4.616q-2.79-1.418-8.102-1.755-5.314-.337-13.92-.337h-18.08q-6.876 0-11.588.409-4.713.41-7.669 1.875-2.957 1.466-4.52 4.64c-1.563 3.174-1.755 5.001-2.14 8.655-.577 5.481-.577 8.303-.577 13.944v1.923q0 8.175.577 13.56.576 5.387 2.14 8.607 1.562 3.222 4.52 4.808c2.958 1.586 4.528 1.747 7.669 2.068q4.712.481 11.588.481h21.301q7.933 0 12.79-.649c4.857-.649 5.698-1.362 7.381-2.789s2.813-3.606 3.39-6.539c.866-4.399.866-6.9.866-11.901v-2.837h-35.342v-7.693h44.574v10.53q0 9.377-1.587 15.243-1.589 5.867-5.361 9.064-3.775 3.198-10.29 4.376-6.516 1.178-16.421 1.178H365.71q-10.82 0-17.791-1.467-6.973-1.466-10.891-5.409-3.92-3.942-5.482-11.348-1.563-7.404-1.563-19.282m104.679-28.658v-9.232h9.232v9.232zm0 64.625V172.15h9.232v52.315zm47.17 0q-8.463 0-13.56-1.707t-7.381-6.059q-2.284-4.35-2.284-12.237v-50.536h9.232v15.146h34.091v7.597h-34.091v27.792q0 5.386.986 8.03.985 2.646 3.991 3.462 3.004.817 9.016.817 5.337 0 8.391-.337 3.053-.336 4.496-1.803 1.442-1.466 1.827-4.832t.385-9.473h8.174q0 7.983-.986 12.79-.986 4.809-3.51 7.261c-2.524 2.452-4.039 2.725-7.068 3.27q-4.544.817-11.708.817zm-151.848 52.578v-1.923q0-9.809.962-16.469.96-6.659 3.318-10.843 2.355-4.183 6.419-6.395 4.062-2.211 10.218-3.005 6.155-.793 14.81-.793h18.08q11.348 0 18.44.866t10.915 3.318c3.823 2.453 4.304 4.015 5.265 7.14s1.443 7.221 1.443 12.285h-9.232q0-5.722-1.01-8.92t-3.799-4.616q-2.79-1.417-8.102-1.755-5.315-.336-13.92-.337h-18.08q-6.876 0-11.588.409-4.713.41-7.669 1.875-2.957 1.466-4.52 4.64c-1.563 3.174-1.755 5.001-2.14 8.655-.577 5.481-.577 8.303-.577 13.944v1.923q0 8.175.577 13.56.576 5.387 2.14 8.607 1.562 3.222 4.52 4.808c2.958 1.586 4.528 1.747 7.669 2.068q4.712.481 11.588.481h21.301q7.933 0 12.79-.649t7.381-2.789 3.39-6.539c.866-4.399.866-6.9.866-11.901v-2.837h-35.342v-7.693h44.574v10.53q0 9.376-1.587 15.243-1.589 5.867-5.361 9.064-3.776 3.198-10.29 4.376-6.516 1.178-16.421 1.178h-21.301q-10.82 0-17.791-1.467-6.973-1.465-10.891-5.409-3.92-3.942-5.482-11.348-1.563-7.404-1.563-19.282m107.756 35.966v-73.857h9.232v73.857zm53.854 1.058q-9.953 0-16.421-1.034-6.468-1.033-9.617-4.544t-3.149-10.915q0-7.548 2.957-11.083c2.957-3.535 5.097-3.886 9.376-4.592q6.419-1.058 16.853-1.058 8.462 0 14.185.385 5.721.386 10.242 1.346-.096-6.394-.866-10.074-.77-3.678-2.885-5.458-2.117-1.779-6.179-2.284-4.064-.505-10.795-.505-7.695 0-12.045.337-4.352.337-6.323 1.202-1.972.866-2.476 2.5-.505 1.636-.505 4.231h-9.232q0-5.193 1.418-8.367 1.418-3.173 4.832-4.808t9.352-2.212 14.978-.577q9.713 0 15.651 1.25t9.04 4.496c3.102 3.246 3.462 5.185 4.183 9.064q1.082 5.819 1.082 15.002v26.638h-9.232v-3.799q-1.636 1.731-4.52 2.789-2.885 1.058-7.669 1.563-4.785.505-12.237.505zm0-7.501q8.223 0 13.127-.192c4.904-.192 5.714-.481 7.333-1.058q2.428-.866 3.198-2.789c.77-1.923.769-3.077.769-5.385v-8.511l-24.427-.289q-6.492-.095-10.458.168-3.967.266-6.035 1.154-2.068.89-2.765 2.789t-.697 5.121q0 3.126.697 4.953.696 1.827 2.765 2.693 2.067.866 6.035 1.106t10.458.24m77.078 7.501q-10.098 0-16.228-.673c-6.13-.673-7.181-1.282-9.28-2.5q-3.15-1.825-4.231-5.193-1.082-3.365-1.082-8.751h8.847q0 3.03.433 4.881c.433 1.851 1.106 2.18 2.452 2.837s3.534 1.106 6.563 1.346c4.543.36 7.285.361 12.766.361q8.703 0 13.536-.361c4.833-.361 5.537-.689 6.948-1.346q2.115-.986 2.572-2.861.457-1.874.457-4.953 0-3.75-.673-5.626-.673-1.875-3.174-2.524-2.502-.65-7.982-.697l-22.022-.24q-8.51-.094-12.983-1.443-4.472-1.346-6.107-4.736-1.636-3.39-1.635-9.641 0-5.817 1.803-8.992c1.803-3.175 3.085-3.622 5.65-4.52q3.846-1.346 10.001-1.611t14.858-.264q10.242 0 16.276.625t9.04 2.356 3.943 5.025.938 8.583h-8.847q0-3.125-.433-4.929c-.433-1.804-1.066-2.083-2.332-2.645q-1.9-.841-6.155-1.082-4.255-.24-11.949-.24-8.752 0-13.608.192-4.857.193-7.02.914c-2.163.721-2.324 1.242-2.645 2.284q-.481 1.563-.481 4.304 0 2.79.313 4.4.312 1.612 1.659 2.428 1.346.818 4.4 1.082 3.053.265 8.535.313l18.993.192q8.56.097 13.007 1.418 4.447 1.322 6.059 4.856 1.61 3.534 1.611 10.218 0 6.01-1.755 9.473-1.755 3.462-5.602 5.121t-10.122 2.14c-6.275.481-9.288.481-15.315.481v-.002Zm76.406 0q-10.098 0-16.228-.673c-6.13-.673-7.181-1.282-9.28-2.5q-3.15-1.825-4.231-5.193-1.082-3.365-1.082-8.751h8.847q0 3.03.433 4.881c.433 1.851 1.106 2.18 2.452 2.837s3.534 1.106 6.563 1.346c4.543.36 7.285.361 12.766.361q8.703 0 13.536-.361c4.833-.361 5.537-.689 6.948-1.346q2.115-.986 2.572-2.861.457-1.874.457-4.953 0-3.75-.673-5.626-.673-1.875-3.174-2.524-2.502-.65-7.982-.697l-22.022-.24q-8.51-.094-12.983-1.443-4.472-1.346-6.107-4.736-1.636-3.39-1.635-9.641 0-5.817 1.803-8.992c1.803-3.175 3.085-3.622 5.65-4.52q3.846-1.346 10.001-1.611t14.858-.264q10.242 0 16.276.625t9.04 2.356 3.943 5.025.938 8.583h-8.847q0-3.125-.433-4.929c-.433-1.804-1.066-2.083-2.332-2.645q-1.9-.841-6.155-1.082-4.255-.24-11.949-.24-8.752 0-13.608.192-4.857.193-7.02.914c-2.163.721-2.324 1.242-2.645 2.284q-.481 1.563-.481 4.304 0 2.79.313 4.4.312 1.612 1.659 2.428 1.346.818 4.4 1.082 3.053.265 8.535.313l18.993.192q8.56.097 13.007 1.418 4.447 1.322 6.059 4.856 1.61 3.534 1.611 10.218 0 6.01-1.755 9.473-1.755 3.462-5.602 5.121t-10.122 2.14c-6.275.481-9.288.481-15.315.481v-.002Z" data-name="GitGlass_txt" style="stroke-width:0;fill:#fff"/>
+      <g id="GitGlass-GitGlass_reflect_txt" style="opacity:.2">
+        <path d="M392.563 444.793h-13.271c-.039-.061-.073-.131-.113-.19-1.597-2.329-4.312-3.846-8.144-4.565q-5.734-1.075-15.466-1.13l-26.092-.149q-8.409-.05-14.406.687-6.004.734-10.456 3.269a21 21 0 0 0-2.979 2.078h-13.538q3.38-4.777 6.947-7.992c4.575-4.123 9.893-6.909 15.977-8.392 6.057-1.477 13.4-2.192 22.049-2.147l25.585.132c7.943.041 14.397.68 19.373 1.92 4.997 1.245 8.696 3.543 11.1 6.916 1.73 2.427 2.869 5.617 3.432 9.564h.002Zm94.808-14.069q-5.5-1.306-14.239-1.353c-6.881-.036-12.463.821-16.769 2.583-4.329 1.769-7.671 4.957-10.033 9.607-.499.981-.96 2.073-1.397 3.233h12.946a8.2 8.2 0 0 1 3.158-1.937q3.841-1.305 11.313-1.261 6.637.038 10.413.607c2.309.347 4.031 1.214 5.181 2.592h11.525c-.778-3.797-1.969-6.751-3.585-8.858-1.998-2.604-4.834-4.338-8.512-5.211v-.002Zm-53.786-23.617 11.946-90.952h-9.208l-13.56 90.907zm35.233-44.702q-.257 3.246.134 5.317.394 2.08 2.49 3.196 2.101 1.117 6.903 1.565 4.806.447 13.363.47 7.49.02 12.024-.62 4.527-.64 6.889-2.916c1.564-1.509 2.627-3.809 3.19-6.883.556-3.041.86-7.154.918-12.29q-4.843 1.14-10.985 1.593-6.148.45-15.222.436-11.183-.02-17.951-1.298c-4.496-.849-7.658-2.67-9.486-5.445-1.809-2.747-2.413-6.996-1.836-12.676.554-5.457 2.018-9.407 4.387-11.916 2.345-2.487 5.7-4.083 10.075-4.806 4.363-.721 9.856-1.081 16.488-1.081q7.45 0 12.23.529 4.786.529 7.676 1.643 2.9 1.117 4.554 2.959l-.01-4.022h9.275l.601 29.6c.148 7.288-.121 13.386-.818 18.209-.709 4.905-2.199 8.783-4.475 11.589-2.298 2.833-5.689 4.806-10.164 5.901-4.492 1.098-10.411 1.638-17.742 1.615q-10.23-.032-16.889-.824c-4.429-.526-7.864-1.518-10.301-2.967-2.425-1.443-4.033-3.545-4.828-6.293-.788-2.722-.965-6.268-.544-10.607l10.055.022zm45.894-19.3-.023-9.721c-.006-2.576-.275-4.564-.803-5.974-.527-1.404-1.615-2.415-3.264-3.043q-2.468-.938-7.453-1.147-4.981-.21-13.33-.213-6.588-.003-10.629.255-4.042.257-6.213 1.192-2.177.936-3.051 2.93c-.587 1.336-.977 3.158-1.171 5.476-.202 2.41-.122 4.342.244 5.784q.55 2.175 2.639 3.206 2.094 1.031 6.251 1.345 4.16.312 11.012.21l25.792-.302zm177.108 19.003-9.82-.021c.786 2.625 1.25 4.713 1.386 6.249q.205 2.318-1.613 3.404-1.825 1.087-6.546 1.389-4.724.3-13.418.278-9.884-.027-15.419-.291-5.53-.265-8.171-1.207-2.634-.94-3.599-2.952-.963-2.004-1.695-5.467c-.493-2.33-.765-4.153-.818-5.48q-.08-1.982 1.177-2.976 1.251-.994 4.505-1.309 3.25-.317 9.206-.363l20.638-.197q9.305-.102 13.672-1.693c2.899-1.058 4.485-2.994 4.764-5.793.275-2.771-.412-6.729-2.037-11.821-1.435-4.498-3.158-7.99-5.168-10.513-1.992-2.499-4.48-4.332-7.465-5.513q-4.457-1.762-10.983-2.269-6.516-.507-15.684-.507c-6.824 0-12.249.236-16.285.708q-6.061.708-8.863 2.648c-1.878 1.299-2.949 3.157-3.211 5.587-.265 2.451-.012 5.672.768 9.692l9.274.008q-.719-3.402-.703-5.451.015-2.041 1.869-3.117 1.848-1.075 6.438-1.464 4.587-.39 13.054-.387 8.969.003 14.064.398 5.102.394 7.609 1.473 2.513 1.08 3.612 3.153c.735 1.389 1.45 3.234 2.147 5.546.857 2.844 1.266 4.997 1.223 6.442q-.066 2.18-2.519 2.937-2.46.757-8.324.807l-23.527.251c-6.057.066-10.566.625-13.537 1.679-2.982 1.057-4.795 2.932-5.435 5.64-.647 2.735-.476 6.671.532 11.863.954 4.919 2.379 8.781 4.275 11.542 1.914 2.787 4.459 4.792 7.631 5.999q4.779 1.817 11.92 2.198 7.146.378 17.152.41 11.783.036 18.486-.785 6.69-.823 9.43-3.128c1.816-1.529 2.622-3.74 2.427-6.616-.194-2.849-1.005-6.518-2.418-10.977zm-96.962 20.451q6.763-.82 9.824-3.115c2.029-1.522 3.158-3.724 3.391-6.587.23-2.836-.03-6.491-.771-10.931l-9.745-.021c.391 2.614.542 4.693.449 6.223q-.14 2.308-2.106 3.39-1.973 1.082-6.703 1.383-4.734.3-13.36.276-9.806-.026-15.262-.29-5.452-.265-7.932-1.202-2.475-.937-3.136-2.939-.66-1.995-.873-5.444c-.145-2.32-.145-4.136 0-5.457q.214-1.973 1.609-2.964 1.39-.99 4.667-1.304 3.274-.314 9.193-.362l20.518-.196q9.252-.102 13.824-1.687c3.035-1.053 4.897-2.983 5.589-5.77.684-2.76.59-6.703-.267-11.775-.757-4.482-1.949-7.96-3.571-10.475-1.607-2.49-3.805-4.317-6.594-5.494q-4.164-1.755-10.57-2.261-6.396-.505-15.499-.505-10.162 0-16.276.706-6.124.705-9.193 2.639c-2.057 1.294-3.396 3.146-4.016 5.567-.626 2.442-.852 5.651-.672 9.657l9.207.008q-.21-3.39.109-5.431.317-2.034 2.317-3.106 1.993-1.072 6.61-1.459 4.613-.388 13.02-.385 8.905.003 13.906.396 5.008.392 7.337 1.468 2.335 1.075 3.118 3.141c.523 1.384.96 3.222 1.309 5.526.429 2.834.516 4.978.259 6.417q-.39 2.172-2.937 2.926-2.555.754-8.383.803l-23.395.25c-6.023.066-10.583.623-13.689 1.673-3.117 1.053-5.194 2.92-6.23 5.617-1.047 2.724-1.46 6.644-1.228 11.815.22 4.898 1.062 8.744 2.535 11.493 1.487 2.775 3.716 4.771 6.686 5.973q4.474 1.81 11.506 2.188 7.037.377 16.963.408c7.791.024 13.949-.237 18.465-.782h-.003ZM426.95 429.128l-11.209-.059-2.439 15.723h11.497zm-23.766-78.209-37.439-.062-2.49 9.299 48.033.101 2.309-12.681c1.322-7.26 1.825-13.022 1.54-17.373-.28-4.282-1.471-7.543-3.561-9.819-2.072-2.257-5.179-3.789-9.324-4.61-4.131-.818-9.459-1.226-15.994-1.226h-21.054c-7.12 0-13.129.508-18.043 1.524-4.933 1.02-9.166 2.912-12.714 5.696-3.586 2.812-6.86 6.913-9.837 12.364-3.04 5.562-6.217 12.98-9.573 22.406l-.833 2.338c-2.883 8.1-5.018 15.083-6.359 20.86-1.37 5.893-1.846 10.784-1.404 14.617.447 3.883 1.872 6.89 4.283 8.994 2.428 2.119 5.906 3.576 10.429 4.359q6.806 1.18 16.904 1.223l21.116.092c8.847.038 16.137-.35 21.853-1.163 5.702-.811 10.275-2.388 13.705-4.718 3.405-2.312 6.067-5.657 7.985-9.999 1.89-4.28 3.449-9.8 4.677-16.485l-10.255-.029c-1.011 5.018-2.19 8.99-3.535 11.87-1.358 2.907-3.238 5.02-5.637 6.322q-3.616 1.961-9.822 2.41-6.212.447-16.091.41l-20.725-.079q-7.873-.03-13.086-.621-5.204-.592-7.916-2.635c-1.799-1.356-2.806-3.481-3.025-6.359-.218-2.85.276-6.689 1.463-11.479 1.168-4.711 2.947-10.593 5.308-17.57l.792-2.34c2.207-6.524 4.2-11.821 5.995-15.955 1.769-4.073 3.576-7.283 5.433-9.661 1.84-2.358 3.938-4.102 6.299-5.248q3.525-1.71 8.415-2.223 4.882-.514 11.781-.511l21.395.008q7.978.003 12.712.702 4.744.699 6.814 3.021c1.389 1.558 2.052 3.957 1.985 7.218-.068 3.302-.675 7.832-1.838 13.653z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-3)"/>
+      </g>
+    </g>
+    <g id="GitGlass-ICON">
+      <g id="GitGlass-GitGlass_icon" data-name="GitGlass icon">
+        <g id="GitGlass-Base">
+          <path d="m180.773 417.734 54.869-94.197.249-.214 56.259-22.139.544.81-111.128 116.338z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-4)"/>
+          <path d="M292.332 301.649 181.204 417.986l54.87-94.198zm-.367-.93-56.259 22.139-.498.427-54.87 94.198 1.587 1.194L293.053 302.34l-1.089-1.621Z" class="GitGlass-cls-12"/>
+          <path d="m235.594 323.645 29.544-98.906.952-.021 26.715 76.767-.29.63-56.259 22.139z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-5)"/>
+          <path d="m265.617 224.882 26.715 76.767-56.259 22.139 29.543-98.906m.946-.329-1.903.042-29.543 98.906 1.324 1.217 56.259-22.139.578-1.259z" class="GitGlass-cls-12"/>
+          <path d="m69.715 301.994.544-.81 56.258 22.139.249.214 54.87 94.197-.793.598z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-6)"/>
+          <path d="m70.076 301.649 56.259 22.139 54.87 94.198zm.365-.93-1.089 1.621L180.48 418.677l1.587-1.194-54.87-94.198-.498-.427-56.259-22.139Z" class="GitGlass-cls-12"/>
+          <path d="m69.894 302.115-.29-.63 26.715-76.767.952.021 29.543 98.906-.662.609z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-7)"/>
+          <path d="m96.791 224.882 29.543 98.906-56.259-22.139zm-.943-.329L69.133 301.32l.578 1.259 56.259 22.139 1.324-1.217-29.544-98.906z" class="GitGlass-cls-12"/>
+          <path d="m180.773 418.238-54.87-94.198.431-.752h109.739l.432.752-54.869 94.198z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-8)"/>
+          <path d="m236.074 323.788-54.87 94.198-54.87-94.198h109.739m.001-1H126.335l-.864 1.503 54.87 94.198h1.728l54.87-94.198-.864-1.503Z" class="GitGlass-cls-12"/>
+          <path d="m235.891 126.441-.249-.214-54.869-94.197.793-.597L292.694 147.77l-.544.81z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-9)"/>
+          <path d="m181.204 31.778 111.128 116.337-56.259-22.139-54.87-94.198m.724-.691-1.587 1.194 54.87 94.198.498.427 56.259 22.139 1.089-1.621z" class="GitGlass-cls-12"/>
+          <path d="m265.138 225.025-29.544-98.906.662-.608 56.259 22.139.29.63-26.715 76.767z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-10)"/>
+          <path d="m236.074 125.976 56.259 22.139-26.715 76.767-29.543-98.906m.365-.931-1.324 1.217 29.543 98.906 1.903.042 26.715-76.767-.578-1.259z" class="GitGlass-cls-12"/>
+          <path d="M265.145 225.047v-.329l26.715-76.768.972.165v153.534l-.972.165z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-11)"/>
+          <path d="M292.332 148.115v153.534l-26.715-76.767zm-.944-.329-26.715 76.767v.657l26.715 76.767 1.944-.329V148.114z" class="GitGlass-cls-12"/>
+          <path d="M69.715 147.77 180.843 31.433l.793.597-54.87 94.197-.249.214-56.258 22.139z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-12)"/>
+          <path d="m181.204 31.778-54.87 94.198-56.259 22.139zm-.723-.691L69.353 147.424l1.089 1.621 56.259-22.139.498-.427 54.87-94.198-1.587-1.194Z" class="GitGlass-cls-12"/>
+          <path d="m69.604 148.28.29-.63 56.258-22.139.662.608-29.543 98.906-.952.022z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-13)"/>
+          <path d="m126.335 125.976-29.543 98.906-26.715-76.767 56.259-22.139m-.368-.931-56.259 22.139-.578 1.259 26.715 76.767 1.903-.042 29.543-98.906z" class="GitGlass-cls-12"/>
+          <path d="m126.334 126.476-.431-.752 54.87-94.197h.863l54.869 94.197-.432.752z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-14)"/>
+          <path d="m181.204 31.778 54.87 94.198H126.335l54.87-94.198m.863-.503h-1.728l-54.87 94.198.864 1.503h109.739l.864-1.503-54.87-94.198Z" class="GitGlass-cls-12"/>
+          <path d="M69.576 301.649V148.115l.973-.165 26.715 76.768v.329l-26.715 76.767z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-15)"/>
+          <path d="m70.076 148.115 26.715 76.767-26.715 76.767zm.945-.329-1.944.329v153.534l1.944.329 26.715-76.767v-.657l-26.715-76.767Z" class="GitGlass-cls-12"/>
+          <path d="m126.334 324.288-.479-.357-29.543-98.906v-.286l29.543-98.906.479-.357h109.739l.48.357 29.544 98.906v.286l-29.544 98.906-.48.357z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-16)"/>
+          <path d="m236.074 125.976 29.543 98.906-29.543 98.906H126.335l-29.543-98.906 29.543-98.906zm0-1H126.335l-.958.714-29.543 98.906v.572l29.543 98.906.958.714h109.739l.958-.714 29.543-98.906v-.572l-29.543-98.906z" class="GitGlass-cls-12"/>
+          <path d="M104.883 251.97c41.197-35.914 91.446-61.696 146.872-73.498l-15.681-52.496H126.335l-29.543 98.906z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-17)"/>
+        </g>
+        <g id="GitGlass-Glare">
+          <path d="m238.111 123.602-41.76-71.69 84.575 88.54z" style="stroke-width:0;isolation:isolate;fill:url(#GitGlass-linear-gradient-18);opacity:.5"/>
+          <path d="m265.831 234.487 22.778 65.452-47.966 18.876z" style="stroke-width:0;isolation:isolate;opacity:.25;fill:url(#GitGlass-linear-gradient-19)"/>
+          <path d="m240.643 130.948 47.966 18.877-22.778 65.452z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:url(#GitGlass-linear-gradient-20)"/>
+          <path d="m131.475 123.021 49.729-85.373 49.73 85.373z" style="stroke-width:0;isolation:isolate;fill:url(#GitGlass-linear-gradient-21);opacity:.2"/>
+          <path d="m166.058 51.911-41.76 71.691-42.816 16.85z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:url(#GitGlass-linear-gradient-22)"/>
+          <path d="m73.799 149.825 47.967-18.877-25.189 84.329z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:url(#GitGlass-linear-gradient-23)"/>
+          <path d="m73.799 299.939 22.778-65.452 25.189 84.328z" style="stroke-width:0;isolation:isolate;fill:url(#GitGlass-linear-gradient-24);opacity:.25"/>
+          <path d="M131.475 326.742h99.459l-49.73 85.375z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:url(#GitGlass-linear-gradient-25)"/>
+          <path d="m238.111 326.161 42.815-16.849-84.575 88.541z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:url(#GitGlass-linear-gradient-26)"/>
+          <path d="M128.535 320.834h105.337l28.661-95.952-5.092-17.048c-49.763 15.354-100.712 39.135-140.651 73.679z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-27)"/>
+          <path d="m242.337 157.268-8.465-28.339H128.535l-27.843 93.213c42.271-26.893 92.813-49.324 141.645-64.874" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-28)"/>
+          <path d="m81.482 309.312 42.816 16.849 41.76 71.692z" style="stroke-width:0;isolation:isolate;opacity:.25;fill:url(#GitGlass-linear-gradient-29)"/>
+        </g>
+        <g id="GitGlass-Edges">
+          <path d="m70.071 148.11 56.259-22.137 54.871-94.192v-.502h-.886L69.569 147.214l-.069.423zM178.256 34.863l-52.606 90.322-53.955 21.231 106.56-111.553z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-30)"/>
+          <path d="m96.788 224.882 29.543-98.909-56.259 22.137zm-.079-3.201-25.407-73 53.502-21.054z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-31)"/>
+          <path d="m292.331 148.11-56.259-22.137-54.871-94.192v-.502h.886l110.746 115.935.069.423zM184.145 34.863l52.606 90.322 53.955 21.231z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-32)"/>
+          <path d="m265.614 224.882-29.543-98.909 56.259 22.137zm.079-3.201 25.407-73-53.502-21.054z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-33)"/>
+          <path d="m70.071 301.653 56.259 22.137 54.871 94.192v.502h-.886L69.569 302.549l-.069-.423zM178.256 414.9l-52.606-90.322-53.955-21.231L178.255 414.9z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-34)"/>
+          <path d="m96.788 224.882 29.543 98.909-56.259-22.137zm-.079 3.2-25.407 73 53.502 21.054z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-35)"/>
+          <path d="m292.331 301.653-56.259 22.137-54.871 94.192v.502h.886l110.746-115.935.069-.423zM184.145 414.9l52.606-90.322 53.955-21.231z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-36)"/>
+          <path d="m265.614 224.882-29.543 98.909 56.259-22.137zm.079 3.2 25.407 73-53.502 21.054z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-37)"/>
+          <path d="M181.216 31.806v1.943l53.142 91.239H128.044l53.142-91.239v-1.943l-54.856 94.167h109.742z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-38)"/>
+          <path d="m70.071 148.11-.571-.473-.414.768v152.952l.414.768.571-.473 26.716-76.772-26.716-76.772zm0 150.53V151.123l25.673 73.758z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-39)"/>
+          <path d="m292.902 147.637-.571.473-26.716 76.772 26.716 76.772.571.473.414-.768V148.407l-.414-.768zm-.571 151.003-25.673-73.758 25.673-73.758v147.517Z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-40)"/>
+          <path d="m181.216 417.957 54.856-94.166H126.33l54.856 94.166v-1.943l-53.142-91.239h106.314l-53.142 91.239z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-41)"/>
+          <path d="M236.072 125.973H126.331l-29.543 98.909 29.543 98.909h109.741l29.543-98.909zm-.739 196.833H127.069l-29.247-97.924 29.247-97.924h108.264l29.247 97.924z" style="stroke-width:0;fill:url(#GitGlass-linear-gradient-42)"/>
+        </g>
+        <g id="GitGlass-icon">
+          <path d="M224.819 207.202c-3.226 0-6.369.753-9.213 2.196l-16.163-16.163a20.3 20.3 0 0 0 2.183-9.186c0-11.261-9.161-20.422-20.422-20.422-3.215 0-6.348.749-9.186 2.183l-38.852-38.852h-6.097l-2.762 9.245 38.659 38.659a20.3 20.3 0 0 0-2.183 9.187c0 8.869 5.766 16.669 14.018 19.393v41.964c-8.251 2.724-14.018 10.524-14.018 19.393 0 11.261 9.161 20.422 20.422 20.422s20.422-9.161 20.422-20.422c0-8.872-5.769-16.674-14.024-19.395v-41.959q1.439-.473 2.79-1.157l16.177 16.176a20.3 20.3 0 0 0-2.171 9.16c0 11.261 9.161 20.422 20.422 20.422s20.422-9.161 20.422-20.422-9.161-20.422-20.422-20.422z" style="stroke-width:0;isolation:isolate;opacity:.5;fill:#1e017d"/>
+          <path d="M224.819 210.156a17.4 17.4 0 0 0-9.693 2.939l-19.378-19.378a17.4 17.4 0 0 0 2.924-9.669c0-9.647-7.82-17.468-17.468-17.468-3.577 0-6.9 1.079-9.669 2.924l-42.931-42.931h-1.589l-1.875 6.284 41.521 41.521a17.4 17.4 0 0 0-2.924 9.669c0 8.466 6.023 15.521 14.018 17.123v46.503c-7.994 1.602-14.018 8.658-14.018 17.123 0 9.647 7.82 17.468 17.468 17.468s17.468-7.82 17.468-17.468c0-8.468-6.027-15.525-14.024-17.125V201.17a17.4 17.4 0 0 0 6.226-2.581l19.387 19.387a17.4 17.4 0 0 0-2.91 9.645c0 9.647 7.82 17.468 17.468 17.468s17.468-7.82 17.468-17.468-7.82-17.468-17.468-17.468zm-33.04 54.642c0 5.831-4.744 10.574-10.574 10.574s-10.574-4.744-10.574-10.574 4.744-10.574 10.574-10.574 10.574 4.744 10.574 10.574m-10.575-70.176c-5.831 0-10.574-4.744-10.574-10.574s4.744-10.574 10.574-10.574 10.574 4.744 10.574 10.574-4.744 10.574-10.574 10.574m43.615 43.576c-5.831 0-10.574-4.744-10.574-10.574s4.744-10.574 10.574-10.574 10.574 4.744 10.574 10.574-4.744 10.574-10.574 10.574" style="opacity:.79;stroke-width:0;isolation:isolate;fill:#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+
+`;
+
+
