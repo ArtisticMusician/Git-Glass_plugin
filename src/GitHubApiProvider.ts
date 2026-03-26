@@ -94,18 +94,51 @@ export class GitHubApiProvider {
                     continue;
                 }
 
-                const content = await this.client.getFileContent(item.path, remoteSha);
-                if (content === null) continue;
-
-                const hasConflict = await this.conflictResolver.checkForConflict(normalizedPath, state.lastSyncTime);
+                let hasConflict = await this.conflictResolver.checkForConflict(normalizedPath, state.lastSyncTime);
 
                 if (hasConflict) {
+                    // Optimized check: if the local file's SHA matches the remote SHA, it's not actually a conflict
+                    try {
+                        const localContent = await this.app.vault.adapter.readBinary(normalizedPath);
+                        const localSha = await FileScanner.calculateSha(localContent);
+                        if (localSha === item.sha) {
+                            console.log(`Local file ${normalizedPath} matches remote SHA, skipping conflict`);
+                            hasConflict = false;
+                        }
+                    } catch (e) {
+                        console.error(`Failed to read local file ${normalizedPath} for SHA comparison:`, e);
+                    }
+                }
+
+                if (hasConflict) {
+                    const content = await this.client.getFileContent(item.path, remoteSha);
+                    if (content === null) continue;
+
                     await this.conflictResolver.createConflictCopy(normalizedPath, content);
                     conflictCount++;
                 } else {
-                    await this.conflictResolver.ensureDirectory(normalizedPath);
-                    await this.app.vault.adapter.write(normalizedPath, content);
-                    downloadCount++;
+                    // Check if local file already matches remote SHA to avoid redundant writes
+                    let needsWrite = true;
+                    try {
+                        const localContent = await this.app.vault.adapter.readBinary(normalizedPath);
+                        const localSha = await FileScanner.calculateSha(localContent);
+                        if (localSha === item.sha) {
+                            needsWrite = false;
+                        }
+                    } catch (e) {
+                        // File doesn't exist or other read error, we need to write it
+                    }
+
+                    if (needsWrite) {
+                        const content = await this.client.getFileContent(item.path, remoteSha);
+                        if (content === null) continue;
+
+                        await this.conflictResolver.ensureDirectory(normalizedPath);
+                        await this.app.vault.adapter.write(normalizedPath, content);
+                        downloadCount++;
+                    } else {
+                        console.log(`Local file ${normalizedPath} already matches remote, skipping download`);
+                    }
                 }
             }
 
