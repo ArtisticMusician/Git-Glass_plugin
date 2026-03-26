@@ -23,6 +23,8 @@ export class ConflictResolver {
         const conflictPath = PathUtils.generateConflictPath(path);
         const normalized = normalizePath(conflictPath);
 
+        await this.ensureDirectory(normalized);
+
         if (content instanceof Uint8Array) {
             await this.app.vault.adapter.writeBinary(normalized, content);
         } else {
@@ -37,10 +39,16 @@ export class ConflictResolver {
         const dir = PathUtils.getDirectory(path);
         if (!dir) return;
 
-        try {
-            await this.app.vault.adapter.stat(dir);
-        } catch {
-            await this.app.vault.adapter.mkdir(dir);
+        const segments = dir.split('/');
+        let currentPath = '';
+
+        for (const segment of segments) {
+            currentPath = currentPath === '' ? segment : `${currentPath}/${segment}`;
+            try {
+                await this.app.vault.adapter.stat(currentPath);
+            } catch {
+                await this.app.vault.adapter.mkdir(currentPath);
+            }
         }
     }
 }

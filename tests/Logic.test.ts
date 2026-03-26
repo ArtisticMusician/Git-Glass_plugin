@@ -108,6 +108,36 @@ describe('ConflictResolver', () => {
         const hasConflict = await resolver.checkForConflict('file.md', lastSyncTime);
         expect(hasConflict).toBe(false);
     });
+
+  describe('ensureDirectory', () => {
+    it('should create directories recursively if they do not exist', async () => {
+      const resolver = new ConflictResolver(mockApp as any);
+      const path = 'folder1/folder2/file.md';
+
+      mockAdapter.stat.mockRejectedValue(new Error('Folder does not exist'));
+      mockAdapter.mkdir.mockResolvedValue(undefined);
+
+      await resolver.ensureDirectory(path);
+
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('folder1');
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('folder1/folder2');
+    });
+
+    it('should handle deeply nested directories', async () => {
+      const resolver = new ConflictResolver(mockApp as any);
+      const path = 'a/b/c/d/file.md';
+
+      mockAdapter.stat.mockRejectedValue(new Error('Folder does not exist'));
+      mockAdapter.mkdir.mockResolvedValue(undefined);
+
+      await resolver.ensureDirectory(path);
+
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('a');
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('a/b');
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('a/b/c');
+      expect(mockAdapter.mkdir).toHaveBeenCalledWith('a/b/c/d');
+    });
+  });
 });
 
 describe('FileExclusionRules', () => {
